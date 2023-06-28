@@ -17,9 +17,9 @@ namespace Main
     {
       try
       {
-        // Hacking.InitSoftware(Config.StartMode, args.Length == 1 ? args[0] : (string) null);
-        // FormBackground formBackground = new FormBackground();
-        // Application.Run();
+        Hacking.InitSoftware(Config.StartMode, args.Length == 1 ? args[0] : (string) null);
+        FormBackground formBackground = new FormBackground();
+        Application.Run();
       }
       catch
       {
